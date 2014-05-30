@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta itemprop="image" content="/images/logo_favicon_128.png">
+<meta content="佳歆美容產品" name="description">
+<meta content="佳歆美容產品" name="application-name">
+<link href="/images/favicon.ico" rel="shortcut icon">
+<title>佳歆美容產品</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/products.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/font-awesome.css" />
+<link rel="stylesheet" href="css/all.css" />
+<!--[if IE 7]>
+    <link rel="stylesheet" href="css/font-awesome-ie7.css">
+<![endif]-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/homepage_banner.js"></script>
+</head>
+
+<body>
+<div class="main-body-wrapper">
+	
+  <div class="main-wrap">
+    <div class="main-header">
+      <div class="logo"><a href="#"><img src="images/logo.png" width="150" height="124" /></a></div>
+      <span class="slogan"><span id="news_listview_ctrl6_news_descript">美女的祕密武器來自</span>年輕的金鑰</span>
+      <div class="menu"> <i class="icon-shopping-cart"></i><a href="#" class="cart">直接購物</a> <i class="icon-arrow-right"></i><a href="#" class="checkout">BLOG</a> <i class="icon-user"></i><a href="#" class="account">聯絡我們<i class="icon-angle-down"></i></a> </div>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="product-cleanser.html">潔膚露</a>
+          <!-- <ul>
+            <li><a href="collection.html">化妝水</a></li>
+            <li><a href="collection.html">乳液</a></li>
+            <li><a href="collection.html">精華液</a></li>
+            <li><a href="collection.html">眼部精華霜</a></li>
+          </ul> -->
+        </li>
+        <li><a href="product-cleanser2.html">卸妝乳</a></li>
+        <li><a href="product-lotion.html">精華露</a></li>
+        <li><a href="product-crystal.html">水晶凍膜</a></li>
+        <li><a href="product-moisturizing.html">保溼乳</a></li>
+        <li><a href="product-cream.html">隔離霜</a></li>
+        <li><a href="product-gold.html">精華霜</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+		
+  <div class="route"><a href="#">首頁</a><i class="icon-angle-right"></i><a href="#">商品</a><i class="icon-angle-right"></i>詳細說明</div>
+  <div class="clear"></div>
+  <div class="main-content-wrapper">
+    <div id="preview">
+      <div class="jqzoom" id="spec-n1" onClick="('#')"><IMG height="350"
+	src="images/banner/product-2.jpg" jqimg="images/products/a-010.jpg" width="350"> </div>
+      
+    </div>
+    <div class="text">
+      <h1>草本柔敏卸妝乳(200mL)</h1>
+      <div class="clear"></div>
+      <ul>
+        <li>溫和去除臉部髒污及彩妝</li>
+        <li>清網不油膩</li>
+        <li>提升肌膚柔嫩度</li>
+      </ul>
+      </h2>
+    </div>
+    <div class="options">
+    <!-- <form action="#">
+      <div class="item">
+        <label>選擇容量</label>
+        <div class="select">
+          <select>
+            <option>100 ML</option>
+            <option>50 ML</option>
+            <option>30 ML</option>
+          </select>
+        </div>
+      </div>
+      <div class="item">
+        <label>選擇香味</label>
+        <div class="select">
+          <select>
+            <option>Blue with white stripes</option>
+            <option>Red with white stripes</option>
+            <option>White with black stripes</option>
+          </select>
+        </div>
+      </div>
+      <div class="item">
+        <label>選擇數量</label>
+        <div class="select quantity">
+          <select>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select><div class="sell-out">補貨中</div>
+        </div>
+      </div>      
+    </form> -->
+    <div class="item-price">      
+      <div class="original"><div class="original-tag">建議售價</div> <!-- $22800 --></div>
+      <div class="sale">$1980</div>
+    </div><div class="clear"> </div>
+     <div class="cart">
+      
+      <button type="button" onclick="alert('請來電(07)269-1598進行購買動作，我們會立即為您服務。')"><i class="icon-shopping-cart"></i>進入購物頁面</button>
+    </div> 
+  </div><div class="clear"> </div>
+  <div class="detail-box"><img src="images/banner/long-2.jpg" width="900" height="1401" /></div>
+</div>
+
+
+
+<SCRIPT type=text/javascript>
+	$(function(){			
+	   <!--$(".jqzoom").jqueryzoom({ xzoom:405,	yzoom:405,offset:30,position:"right",preload:1,lens:1});-->		
+		$("#spec-list").jdMarquee({
+			deriction:"left",
+			width:400,
+			height:56,
+			step:2,
+			speed:4,
+			delay:10,
+			control:true,
+			_front:"#spec-right",
+			_back:"#spec-left"
+		});
+		$("#spec-list img").bind("mouseover",function(){
+			var src=$(this).attr("src");
+			$("#spec-n1 img").eq(0).attr({
+				src:src.replace("\/n5\/","\/n1\/"),
+				jqimg:src.replace("\/n5\/","\/n0\/")
+			});
+			$(this).css({
+				"border":"2px solid #666",
+				"padding":"1px"
+			});
+		}).bind("mouseout",function(){
+			$(this).css({
+				"border":"1px solid #ccc",
+				"padding":"2px"
+			});
+		});				
+	})
+	</SCRIPT> 
+<SCRIPT src="js/item.lib.js" type=text/javascript></SCRIPT> 
+<SCRIPT src="js/itemcss.js" type=text/javascript></SCRIPT>
+
+
+	<div class="clear"></div>
+  <div class="footer">
+          <div class="wrap">
+            <div class="box">
+              <h2>聯絡我們</h2>
+              <h3><i class="icon-home"></i>802 高雄市苓雅區文武三街14號<br />
+                <i class="icon-phone"></i> (07)269-1598<br />
+                <i class="icon-envelope-alt"></i><a href="mailto:sales@demolink.org"> sales@demolink.org</a></h3>
+              </div>
+              <div class="box">
+                <h2>佳歆保養</h2>
+                <h3>掌握關鍵年輕金鑰，讓您永遠年輕十歲！</h3>
+                <div class="share">
+                <ul>
+                  <li class="spherical-wg"><a href="#"><i class="icon-facebook"></i></a></li>
+                  <li class="spherical-wg"><a href="#"><i class="icon-google-plus"></i></a></li>
+                  <li class="spherical-wg"><a href="#"><i class="icon-rss"></i></a></li>
+                  <li class="spherical-wg"><a href="#"><i class="icon-heart"></i></a></li>
+                </ul>
+              </div>
+              </div>
+            </div>
+            <div class="clear"> </div>
+          </div>
+  <div class="clear"> </div>
+  <div class="row">© 2014 chiahsin-beauty</div>
+</div>
+</body>
+</html>
