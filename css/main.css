@@ -269,7 +269,7 @@ span.slogan {
     font-size:18px;
     float:left;
     color:#1e1e1e;
-    padding:0 1em;
+    padding:0 ;
     text-shadow:none;
 }
 .nav li i {
@@ -545,8 +545,8 @@ span.slogan {
     position:relative;
     margin:0 0.95em 2.5em 0.95em;
     float:left;
-    width:220px;
-    height:305px;
+    width: 300px;
+    /* height:305px; */
     background:rgba(0, 0, 0, 0.03);
     border:1px solid #DDD;
     -moz-box-shadow:0px 0px 8px rgba(0, 0, 0, 0.15);
@@ -556,7 +556,7 @@ span.slogan {
 .items .product-sty-001-box img {
     margin:0 auto;
     display:block;
-    max-width: 220px;
+    max-width: 300px;
     height:inherit;
     width:expression(document.body.clientWidth>220?"220px""auto");
     overflow:hidden;
@@ -585,9 +585,10 @@ span.slogan {
     font-weight:normal;
 }
 .price {
-    width:220px;
+    /* width:220px; */
     letter-spacing:0;
     text-align:center;
+    margin-bottom: 0.5em;
 }
 .price .sale {
     display:block;

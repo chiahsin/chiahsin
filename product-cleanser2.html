@@ -23,9 +23,9 @@
 	
   <div class="main-wrap">
     <div class="main-header">
-      <div class="logo"><a href="#"><img src="images/logo.png" width="150" height="124" /></a></div>
+      <div class="logo"><a href="index.html"><img src="images/logo.png" width="150" height="124" /></a></div>
       <span class="slogan"><span id="news_listview_ctrl6_news_descript">美女的祕密武器來自</span>年輕的金鑰</span>
-      <div class="menu"> <!-- <i class="icon-shopping-cart"></i><a href="#" class="cart">直接購物</a> <i class="icon-arrow-right"></i><a href="#" class="checkout">BLOG</a> <i class="icon-user"></i><a href="#" class="account">聯絡我們<i class="icon-angle-down"></i></a>  --><i class="icon-arrow-right"></i><a target="_black" href="https://www.facebook.com/ViViAnMeiRongspaYangShenGuan?fref=ts" class="checkout">BLOG</a></div>
+      <div class="menu"> <!-- <i class="icon-shopping-cart"></i><a href="#" class="cart">直接購物</a> <i class="icon-arrow-right"></i><a href="#" class="checkout">BLOG</a> <i class="icon-user"></i><a href="#" class="account">聯絡我們<i class="icon-angle-down"></i></a>  --><i class="icon-arrow-right"></i><a target="_black" href="https://www.facebook.com/ViViAnMeiRongspaYangShenGuan?fref=ts" class="checkout">FB粉絲團</a></div>
     </div>
     <div class="nav">
       <ul>
@@ -108,48 +108,13 @@
     </div><div class="clear"> </div>
      <div class="cart">
       
-      <button type="button" onclick="alert('請來電(07)269-1598進行購買動作，我們會立即為您服務。')"><i class="icon-shopping-cart"></i>進入購物頁面</button>
+      <button class="jq-submit" type="button" onclick="salepage()"><i class="icon-shopping-cart"></i>進入購物頁面</button>
     </div> 
   </div><div class="clear"> </div>
   <div class="detail-box"><img src="images/banner/long-2.jpg" width="900" height="1401" /></div>
 </div>
 
 
-
-<SCRIPT type=text/javascript>
-	$(function(){			
-	   <!--$(".jqzoom").jqueryzoom({ xzoom:405,	yzoom:405,offset:30,position:"right",preload:1,lens:1});-->		
-		$("#spec-list").jdMarquee({
-			deriction:"left",
-			width:400,
-			height:56,
-			step:2,
-			speed:4,
-			delay:10,
-			control:true,
-			_front:"#spec-right",
-			_back:"#spec-left"
-		});
-		$("#spec-list img").bind("mouseover",function(){
-			var src=$(this).attr("src");
-			$("#spec-n1 img").eq(0).attr({
-				src:src.replace("\/n5\/","\/n1\/"),
-				jqimg:src.replace("\/n5\/","\/n0\/")
-			});
-			$(this).css({
-				"border":"2px solid #666",
-				"padding":"1px"
-			});
-		}).bind("mouseout",function(){
-			$(this).css({
-				"border":"1px solid #ccc",
-				"padding":"2px"
-			});
-		});				
-	})
-	</SCRIPT> 
-<SCRIPT src="js/item.lib.js" type=text/javascript></SCRIPT> 
-<SCRIPT src="js/itemcss.js" type=text/javascript></SCRIPT>
 
 
 	<div class="clear"></div>
@@ -159,18 +124,18 @@
               <h2>聯絡我們</h2>
               <h3><i class="icon-home"></i>802 高雄市苓雅區文武三街14號<br />
                 <i class="icon-phone"></i> (07)269-1598<br />
-                <i class="icon-envelope-alt"></i><a href="mailto:sales@demolink.org"> sales@demolink.org</a></h3>
+                <!-- <i class="icon-envelope-alt"></i><a href="mailto:sales@demolink.org"> sales@demolink.org</a> --></h3>
               </div>
               <div class="box">
                 <h2>佳歆保養</h2>
                 <h3>掌握關鍵年輕金鑰，讓您永遠年輕十歲！</h3>
                 <div class="share">
-                <ul>
+                <!-- <ul>
                   <li class="spherical-wg"><a href="#"><i class="icon-facebook"></i></a></li>
                   <li class="spherical-wg"><a href="#"><i class="icon-google-plus"></i></a></li>
                   <li class="spherical-wg"><a href="#"><i class="icon-rss"></i></a></li>
                   <li class="spherical-wg"><a href="#"><i class="icon-heart"></i></a></li>
-                </ul>
+                </ul> -->
               </div>
               </div>
             </div>
