@@ -6,3 +6,8 @@
 .nav li, .nav a {
   width: 10%;
 }
+
+/* line 8, ../sass/all.sass */
+#disqus_thread {
+  padding-top: 20px;
+}
