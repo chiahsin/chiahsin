@@ -2043,3 +2043,7 @@ ul.payment-methods img {
     padding: 4px 14px 5px;
     transition: all 0.2s linear 0s;
 }
+
+ .detail-box{
+      text-align: center;
+    }
