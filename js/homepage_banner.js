@@ -67,7 +67,7 @@ $(function(){
 	timer = setTimeout(autoClick, speed);
 	function salepage(){
 	}
-	$('.jq-submit').on('click',function(){
-		window.open('https://docs.google.com/forms/d/15ooRLwq7GNcUMK6pKWdm5G4Tv_3AMCgZCCHdDOFTx3M/viewform?entry.1012228752&entry.227224538&entry.2113686243&entry.1678648022&entry.394407530&entry.1667456080=0&entry.866791506=0&entry.1878115027=0&entry.522225355=0&entry.909754386=0&entry.454941478=0&entry.1261062820=0&entry.1026712715=0&entry.842833786=0&entry.2116422549=0&entry.2067353760=0&entry.669044461=0','_blank');
-	});
+	// $('.jq-submit').on('click',function(){
+	// 	window.open('https://docs.google.com/forms/d/15ooRLwq7GNcUMK6pKWdm5G4Tv_3AMCgZCCHdDOFTx3M/viewform?entry.1012228752&entry.227224538&entry.2113686243&entry.1678648022&entry.394407530&entry.1667456080=0&entry.866791506=0&entry.1878115027=0&entry.522225355=0&entry.909754386=0&entry.454941478=0&entry.1261062820=0&entry.1026712715=0&entry.842833786=0&entry.2116422549=0&entry.2067353760=0&entry.669044461=0','_blank');
+	// });
 });
