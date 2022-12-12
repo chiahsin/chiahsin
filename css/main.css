@@ -545,7 +545,6 @@ span.slogan {
     position:relative;
     margin:0 0.95em 2.5em 0.95em;
     float:left;
-    padding-bottom: 10px;
     width: 300px;
     /* height:305px; */
     background:rgba(0, 0, 0, 0.03);
@@ -2031,20 +2030,3 @@ ul.payment-methods img {
     margin:0 0.2em;
     font-style:italic;
 }
-.options a {
-    margin:1.5em -3.5em 0 4.5em;
-    background-color:#bc8f4b;
-    border: medium none;
-    color: #FFFFFF;
-    cursor:pointer;
-    display: inline-block;
-    font-family: Source Sans Pro, sans-serif;
-    font-size: 1.2em;
-    font-weight:bold;
-    padding: 4px 14px 5px;
-    transition: all 0.2s linear 0s;
-}
-
- .detail-box{
-      text-align: center;
-    }
