@@ -289,14 +289,15 @@ span.slogan {
     margin:8px 0;
     line-height:38px;
     color:#FFF;
-    background-color:#1e1e1e;
-    border:2px solid #d4a14d;
+    background-color:#eaca18;
+    border:2px solid #a88d0b;
     border-radius:4px;
     font-weight:bold;
+    text-shadow:0 1px 2px rgba(0, 0, 0, 0.75);
 }
 .nav li a.consultation-link:hover {
     color:#FFF;
-    background-color:#a86616;
+    background-color:#c9ac12;
 }
 .nav ul ul {
     width: 220px;
